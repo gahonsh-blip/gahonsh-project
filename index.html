@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gahonsh Freelancing & Services</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Italiana&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="scene" aria-hidden="true">
+  <div class="scene__blob scene__blob--1"></div>
+  <div class="scene__blob scene__blob--2"></div>
+  <div class="scene__blob scene__blob--3"></div>
+</div>
+
+<!-- Theme Toggle -->
+<button class="glass glass-btn theme-toggle-btn" id="theme-toggle" aria-label="Toggle colour scheme" title="Toggle light / dark mode">
+  <span class="icon-dark" aria-hidden="true">☀️</span>
+  <span class="icon-light" aria-hidden="true">🌙</span>
+</button>
+
+<div class="glass-toast-region" id="toast-region" role="region" aria-label="Notifications" aria-live="polite"></div>
+
+<main class="page">
+
+  <!-- ─── HERO SECTION ─────────────────────────────────────────────────── -->
+  <header class="hero">
+    <span class="hero__kicker">Premium Digital Solutions · Modern Aesthetics</span>
+    <h1 class="hero__title">Gahonsh<br>Freelancing</h1>
+    <p class="hero__sub">
+      हाई-एंड कोडिंग, सुरक्षित साइबर सिक्योरिटी (Cybersecurity) और डिजिटल ऑटोमेशन सर्विसेज। बिना किसी थर्ड-पार्टी डिपेंडेंसी के।
+    </p>
+
+    <div class="hero__cta">
+      <a href="#services" class="glass glass-btn glass-btn--primary">हमारी सेवाएं देखें →</a>
+      <a href="#about" class="glass glass-btn glass-btn--ghost">हमारे बारे में जानें</a>
+    </div>
+
+    <div class="container stats">
+      <div class="glass stats__item">
+        <div class="stats__num">100%</div>
+        <div class="stats__desc">सिक्योरिटी (Cybersecurity)</div>
+      </div>
+      <div class="glass stats__item">
+        <div class="stats__num">Zero</div>
+        <div class="stats__desc">डिपेंडेंसी (Pure CSS)</div>
+      </div>
+      <div class="glass stats__item">
+        <div class="stats__num">AA</div>
+        <div class="stats__desc">WCAG Compliant</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container page" id="services">
+
+    <!-- ─── SERVICES (CARDS) ──────────────────────────────────────────── -->
+    <section class="section">
+      <div class="section__header">
+        <h2 class="section__title">Our Eco-System</h2>
+        <span class="section__subtitle">गहॉंश ग्रुप की मुख्य शाखाएं</span>
+      </div>
+      <div class="card-grid">
+        <div class="glass glass-card">
+          <div class="glass-card__label">शाखा · 01</div>
+          <h3 class="glass-card__title">Gahonsh Freelancing</h3>
+          <p class="glass-card__body">एडवांस्ड वेब डेवलपमेंट, PDF मैनेजमेंट, एआई ऑटोमेशन टूल्स और ग्राफिक डिजाइन (Canva) सर्विसेज।</p>
+          <div style="margin-top:20px"><span class="glass-badge glass-badge--aqua"><span class="glass-badge__dot"></span> Active</span></div>
+        </div>
+        
+        <div class="glass glass-card">
+          <div class="glass-card__label">शाखा · 02</div>
+          <h3 class="glass-card__title">Gahonsh Coaching</h3>
+          <p class="glass-card__body">तकनीकी कौशल (Technical Skills), एथिकल हैकिंग, OSINT और मैथ ट्यूटोरियल्स के लिए बेहतरीन कोचिंग सेंटर।</p>
+          <div style="margin-top:20px"><span class="glass-badge glass-badge--violet"><span class="glass-badge__dot"></span> Education</span></div>
+        </div>
+
+        <div class="glass glass-card">
+          <div class="glass-card__label">शाखा · 03</div>
+          <h3 class="glass-card__title">Gahonsh Finance</h3>
+          <p class="glass-card__body">प्राइवेट फाइनेंस क्लाइंट्स के लिए सटीक लोन बिलिंग, स्टेटमेंट ट्रैकिंग और फाइनेंशियल मैनेजमेंट सर्विस।</p>
+          <div style="margin-top:20px"><span class="glass-badge glass-badge--amber"><span class="glass-badge__dot"></span> Trust</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ─── DETAILED SERVICE TABS ─────────────────────────────────────── -->
+    <section class="section">
+      <div class="section__header">
+        <h2 class="section__title">Core Expertise</h2>
+        <span class="section__subtitle">हमारी कार्यप्रणाली</span>
+      </div>
+      
+      <div class="glass-tabs" id="demo-tabs">
+        <div class="glass glass-tab-list" role="tablist" aria-label="Services tabs">
+          <button class="glass-tab" role="tab" aria-selected="true" aria-controls="tab-panel-1" id="tab-1">Cybersecurity</button>
+          <button class="glass-tab" role="tab" aria-selected="false" aria-controls="tab-panel-2" id="tab-2">Web & Automation</button>
+          <button class="glass-tab" role="tab" aria-selected="false" aria-controls="tab-panel-3" id="tab-3">Design & Media</button>
+        </div>
+        
+        <div id="tab-panel-1" class="glass glass-tab-panel is-active glass-card" role="tabpanel" aria-labelledby="tab-1">
+          <h3 class="glass-card__title">एथिकल हैकिंग और डिजिटल सुरक्षा</h3>
+          <p class="glass-card__body">हम Kali Linux, Metasploit, IP ट्रैकिंग और एडवांस्ड OSINT फ्रेमवर्क का उपयोग करके आपके डिजिटल एसेट्स को पूरी तरह सुरक्षित और मॉनिटर करते हैं।</p>
+        </div>
+        <div id="tab-panel-2" class="glass glass-tab-panel glass-card" role="tabpanel" aria-labelledby="tab-2">
+          <h3 class="glass-card__title">वेब और एआई ऑटोमेशन टूल्स</h3>
+          <p class="glass-card__body">OpenAI o3, Windsurf, और आधुनिक कोडिंग तकनीकों द्वारा ऑटोमेटेड सॉफ्टवेयर और टूल्स का निर्माण जो आपके समय और मेहनत को बचाते हैं।</p>
+        </div>
+        <div id="tab-panel-3" class="glass glass-tab-panel glass-card" role="tabpanel" aria-labelledby="tab-3">
+          <h3 class="glass-card__title">Canva ग्राफिक डिजाइन और मीडिया</h3>
+          <p class="glass-card__body">ब्रांडिंग, प्रोफेशनल प्रेजेंटेशन, इमेज एनहांसमेंट, बैकग्राउंड रिमूवल और फ्रीपिक/वेपिक एसेट्स के साथ वर्ल्ड-क्लास डिजाइन सर्विसेज।</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ─── CLIENTS & BALANCES (DATA TABLE) ───────────────────────────────── -->
+    <section class="section">
+      <div class="section__header">
+        <h2 class="section__title">Finance Tracking Live Demo</h2>
+        <span class="section__subtitle">पारदर्शी और सटीक बिलिंग सिस्टम</span>
+      </div>
+      <div class="glass glass-table-wrap" id="data-table-wrap">
+
+        <div class="glass-table-toolbar">
+          <span class="glass-table-toolbar__title">Client Overview</span>
+          <span class="glass-table-toolbar__count" id="tbl-count">3 Members</span>
+          <div class="glass-table-search">
+            <span class="glass-table-search__icon">🔍</span>
+            <input class="glass-table-search__input" type="search" placeholder="क्लाइंट खोजें..." id="tbl-search" aria-label="Search members">
+          </div>
+        </div>
+
+        <table class="glass-table" id="glass-table" aria-label="Team members">
+          <thead>
+            <tr>
+              <th class="col-check" scope="col">
+                <input type="checkbox" class="glass-table-check" id="tbl-check-all" aria-label="Select all rows">
+              </th>
+              <th scope="col" data-col="name" class="is-sorted">क्लाइंट <span class="glass-table__sort-icon">↑</span></th>
+              <th scope="col" data-col="role">सर्विस प्रकार</th>
+              <th scope="col" data-col="status">स्थिति</th>
+              <th scope="col" data-col="projects" class="glass-table__cell--num">प्रोजेक्ट्स</th>
+              <th scope="col" data-col="score" class="glass-table__cell--num">पेमेंट स्कोर</th>
+              <th scope="col" style="width:48px"></th>
+            </tr>
+          </thead>
+          <tbody id="tbl-body">
+            <tr data-id="1">
+              <td class="col-check" data-label="Select"><input type="checkbox" class="glass-table-check"></td>
+              <td data-label="Member">
+                <div class="glass-table-member">
+                  <div class="glass-table-avatar" style="background:linear-gradient(135deg,#e8a87c,#d4845a)">👤</div>
+                  <div class="glass-table-member__info">
+                    <span class="glass-table-member__name">Rajkumar Hazam</span>
+                    <span class="glass-table-member__email">Gahonsh Finance User</span>
+                  </div>
+                </div>
+              </td>
+              <td data-label="Role">Private Loan</td>
+              <td data-label="Status"><span class="glass-badge glass-badge--lime"><span class="glass-badge__dot"></span>Clear</span></td>
+              <td class="glass-table__cell--num" data-label="Projects">01</td>
+              <td class="glass-table__cell--num" data-label="Score">
+                <div class="glass-table-score">
+                  <div class="glass-table-score__bar"><div class="glass-table-score__fill" style="width:95%"></div></div>
+                  <span class="glass-table-score__num">95</span>
+                </div>
+              </td>
+              <td><button class="glass-table-action">⋯</button></td>
+            </tr>
+            <tr data-id="2">
+              <td class="col-check" data-label="Select"><input type="checkbox" class="glass-table-check"></td>
+              <td data-label="Member">
+                <div class="glass-table-member">
+                  <div class="glass-table-avatar" style="background:linear-gradient(135deg,#6baed6,#3182bd)">👤</div>
+                  <div class="glass-table-member__info">
+                    <span class="glass-table-member__name">Anita Devi</span>
+                    <span class="glass-table-member__email">Gahonsh Finance User</span>
+                  </div>
+                </div>
+              </td>
+              <td data-label="Role">Micro Finance</td>
+              <td data-label="Status"><span class="glass-badge glass-badge--lime"><span class="glass-badge__dot"></span>Clear</span></td>
+              <td class="glass-table__cell--num" data-label="Projects">01</td>
+              <td class="glass-table__cell--num" data-label="Score">
+                <div class="glass-table-score">
+                  <div class="glass-table-score__bar"><div class="glass-table-score__fill" style="width:90%"></div></div>
+                  <span class="glass-table-score__num">90</span>
+                </div>
+              </td>
+              <td><button class="glass-table-action">⋯</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <!-- ─── CONTACT FORM ──────────────────────────────────────────────── -->
+    <section class="section">
+      <div class="section__header">
+        <h2 class="section__title">Get In Touch</h2>
+        <span class="section__subtitle">नया प्रोजेक्ट शुरू करें</span>
+      </div>
+      <div class="glass glass-form">
+        <div class="glass-form__row">
+          <div>
+            <label>आपका नाम</label>
+            <div class="glass-input-wrap">
+              <input class="glass-input" placeholder="नाम लिखें...">
+            </div>
+          </div>
+          <div>
+            <label>ईमेल</label>
+            <div class="glass-input-wrap">
+              <input class="glass-input" type="email" placeholder="example@email.com">
+            </div>
+          </div>
+        </div>
+        <div class="glass-form__row glass-form__row--full">
+          <div>
+            <label>संदेश / प्रोजेक्ट विवरण</label>
+            <textarea class="glass-textarea" placeholder="अपने प्रोजेक्ट के बारे में बताएं..."></textarea>
+          </div>
+        </div>
+        <button class="glass glass-btn glass-btn--primary" style="width:100%;justify-content:center" type="submit">
+          सबमिट करें
+        </button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__text">© 2026 Gahonsh Freelancing & Services. All Rights Reserved. Compliant with CSS Guidelines.</p>
+    </footer>
+
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
